@@ -22,9 +22,8 @@ cfg = get_cfg(cfg_path,model_path)
 predictor = DefaultPredictor(cfg)
 
 def main():
-    print(main_dir)
-    print(data_dir)
-    image_path = os.path.join(data_dir, "example.jpg") # Tahmin edilecek resmin ismi
+    dosya_ismi = sys.argv[1]
+    image_path = os.path.join(data_dir, dosya_ismi) # Tahmin edilecek resmin ismi
     predict_image(image_path, predictor, cfg,save_dir=save_dir, show=True)
 
 if __name__ == '__main__':
