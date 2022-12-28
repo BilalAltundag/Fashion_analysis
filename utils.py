@@ -264,7 +264,6 @@ def predict_image(image_path, predictor, cfg,save_dir=None, show=False):
     while tqdm(instance_number == 0):
         print(instance_number)
         cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.80 - ext
-        #MetadataCatalog.get("train").set(thing_classes=['upperbody', 'lowerbody', 'footwear', 'accessories'])
         predictor = DefaultPredictor(cfg)
         im = cv2.imread(image_path)
         outputs = predictor(im)
