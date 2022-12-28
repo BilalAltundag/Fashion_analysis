@@ -3,7 +3,7 @@ Proje amacı : Kullanıcı tarafından kıyafet resimleri yüklenir.İlk önce D
 
 ## Modeller ve sınıfları:
 
-1. Detectron2 Modeli(İlk ana model,Segmentasyon,Object detection ve sınıflandırma yapan model)
+1.Detectron2 Modeli(İlk ana model,Segmentasyon,Object detection ve sınıflandırma yapan model)
 
 	1.1 Upperbody(Üst gövdeye ait sınıfı bulan sınıflandırma modeli)
 	
