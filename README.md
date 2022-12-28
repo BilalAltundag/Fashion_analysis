@@ -1,7 +1,7 @@
 # Fashion_analysis
 Proje amacı : Kullanıcı tarafından kıyafet resimleri yüklenir.İlk önce Detectron2 ile eğitilen modelden ana kategoriler bounding box,sınıf ve segmentasyon sonuçları alınır.Daha sonra tahminde çıkan ana sınıflara göre sınıflandırma modellerinde bir tahmin döndürülür.En son tahmin edilen sınıfların baskın rengi tahmin edilir.
 
-##Modeller ve sınıfları:
+## Modeller ve sınıfları:
 
 1.Detectron2 Modeli(İlk ana model,Segmentasyon,Object detection ve sınıflandırma yapan model)
 
